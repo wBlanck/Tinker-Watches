@@ -1,0 +1,19 @@
+@font-face { font-family: "Canela"; src: url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/canela-web-light-webfont.woff2?v=2049932535147305478") format("woff2"), url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/canela-web-light-webfont.woff?v=17811121472924865975") format("woff"), url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/canela-web-light-webfont.ttf?v=21147966041477212") format("truetype"), url("#canela-weblight") format("svg"); font-style: normal; font-weight: 300; }
+
+@font-face { font-family: "GT America"; src: url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/gt_america_regular-webfont.woff2?v=2138656299918145985") format("woff2"), url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/gt_america_regular-webfont.woff?v=14642367921665573857") format("woff"), url("//cdn.shopify.com/s/files/1/0877/8598/t/133/assets/gt_america_regular-webfont.ttf?v=1838382675219429698") format("truetype"), url("#gt_americaregular") format("svg"); font-style: normal; font-weight: 400; }
+
+:root {
+  --clr-white: #fff;
+  --clr-gray-dark: #363636;
+  --clr-gray-light: #9B9B9B;
+}
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'GT America', sans-serif;
+}
