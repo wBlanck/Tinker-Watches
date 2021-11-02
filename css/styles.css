@@ -17,3 +17,55 @@
 h1 {
   font-family: 'GT America', sans-serif;
 }
+
+body {
+  width: calc(100% - (5% * 2));
+  margin: 0 auto;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  height: 100%;
+}
+
+.hamburger span {
+  width: 20px;
+  height: 2px;
+  background-color: var(--clr-gray-dark);
+  position: relative;
+}
+.hamburger-bar + .hamburger-bar {
+  margin-top: 4px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.logo svg{
+  max-width: 125px;
+  cursor: pointer;
+
+}
+.cart {
+  margin-left: auto;
+  position: relative;
+  cursor: pointer;
+}
+.cart i {
+  font-size: 1.4rem;
+}
+.cart-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .8rem;
+}
+
+.hamburger {
+  margin-left: 30px;
+}
